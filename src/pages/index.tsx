@@ -1,7 +1,6 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
+import Head from "next/head";
 
-const Home: NextPage = () => {
+function Home() {
   return (
     <div>
       <Head>
@@ -9,10 +8,13 @@ const Home: NextPage = () => {
         <meta name="description" content="created by: Kauan Carvalho" />
       </Head>
       <body>
-        <h1>Next.js template using: Typescript, Styled-components, eslint and prettier</h1>
+        <h1>
+          Next.js template using: Typescript, Styled-components, eslint and
+          prettier
+        </h1>
       </body>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
